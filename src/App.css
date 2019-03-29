@@ -39,3 +39,18 @@ header {
   background-size: cover;
 }
 
+.services-icon {
+  border: 2px #00b2d3 solid;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  color: #00b2d3;
+  font-size: 2.5em;
+  margin: 0 auto;
+}
+
+footer {
+  background-image: url('../src/assets/images/backgrounds/linen-dark.jpg');
+  color: #fff;
+}
