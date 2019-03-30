@@ -1,12 +1,9 @@
 import React from 'react';
-import PageTitle from './PageTitle';
 
 
 const Bookings = () => (
 
   <section className="bookings hero">
-
-  <PageTitle></PageTitle>
 
 
   <div className="container p-5 text-center text-light">
