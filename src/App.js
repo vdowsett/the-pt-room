@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Service from './components/Service';
+import PageTitle from './components/PageTitle';
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
       <div className="App">
 
         <Header></Header>
+
+        <PageTitle></PageTitle>
 
         <main>
 
