@@ -1,6 +1,4 @@
 import React from 'react';
-import purple from '../assets/images/backgrounds/purple.jpg';
-import white from '../assets/images/backgrounds/white-flower.jpg';
 
 const Contact = () => (
   <section className="contact">

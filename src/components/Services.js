@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-
-import PageTitle from './PageTitle';
 import Service from './Service';
-
 
 class Services extends Component {
 
@@ -10,8 +7,6 @@ class Services extends Component {
 
     return (
       <section className="services">
-
-      <PageTitle></PageTitle>
 
       <div className="container text-center pt-5">
       <p className="subtitle m-0">Get back to your best you</p>

@@ -24,19 +24,37 @@ header {
 .pagetitle {
   background: #00b2d3;
 }
+
 .subtitle {
   font-family: 'Mr De Haviland', cursive;
-  font-size: 2.92em  ;
-}
-
-.bookings {
-  background-image: url('../src/assets/images/backgrounds/winter.jpg');
+ font-size: 2.92em  ;
 }
 
 .hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bookings {
+  background-image: url('../src/assets/images/backgrounds/winter.jpg');
+}
+
+.home {
+  background-image: url('../src/assets/images/backgrounds/ironman-cowbell.jpg');
+}
+
+.cta {
+  background-color: #76bdcc;
+}
+
+.prices {
+  background-image: url('../src/assets/images/backgrounds/hot-rocks.jpg');
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.55);
+  color: #303030;
 }
 
 .services-icon {

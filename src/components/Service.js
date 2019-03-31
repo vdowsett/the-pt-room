@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import servicesData from './../data/services';
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import ReactHtmlParser from 'react-html-parser';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBullseye, faBurn, faFireAlt, faSpa, faDumbbell, faHeart } from '@fortawesome/free-solid-svg-icons'
