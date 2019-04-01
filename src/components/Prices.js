@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import pricesData from './../data/prices';
 
 class Prices extends Component {
@@ -44,8 +45,9 @@ class Prices extends Component {
                     }
                 </tbody> </table>
 
-                <button type="button" className="btn btn-light btn-block" href="/bookings" target="_blank">Book Your Appointment Today</button>
-
+                <Link to="/bookings">
+                  <button type="button" className="btn btn-light btn-block" target="_blank">Book Your Appointment Today</button>
+                </Link>
             </div></div>
 
         </div>

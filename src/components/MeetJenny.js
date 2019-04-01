@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import profilePhoto from '../assets/images/meet-jenny/jenny-strecker-personal-trainer.jpg';
 import ironManPhoto from '../assets/images/meet-jenny/Ironman-Auckland-2014-Jenny.png';
 import swimPhoto from '../assets/images/meet-jenny/Jenny-Beach-Series.png';
@@ -40,7 +42,9 @@ const MeetJenny = () => (
               <p className="card-text">My passion and personal goals have led me to compete, and complete, multiple Iron Man events (full and half), as well as the several running, cycling and swimming events. I love the triathlon experience, and continue to train and compete in triathlons, swimming, running and cycling races both in New Zealand and across the world.</p>
               <p className="card-text">In addition, it has been my pride and joy to watch some of my clients, some with no previous experience, achieve personal success in competing in triathlon, 5K, biking or swimming events themselves. Getting to share this journey with each of them has been rewarding, and continues inspire me to continue training each day.</p>
               <p className="card-text">To learn more about my IronMan journey, I invite you to read this article in the New Zealand Herald.</p>
-              <button type="button" className="btn btn-info" href="http://www.nzherald.co.nz/lifestyle/news/article.cfm?c_id=6&objectid=11409956" target="_blank">New Zealand Herald Article</button>
+              <a href="http://www.nzherald.co.nz/lifestyle/news/article.cfm?c_id=6&objectid=11409956" target="_blank">
+                <button type="button" className="btn btn-info">New Zealand Herald Article</button>
+              </a>
             </div>
           </div>
 
