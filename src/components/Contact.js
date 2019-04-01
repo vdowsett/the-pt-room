@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PageTitle from './PageTitle';
 
-const Contact = () => (
-  <section className="contact">
+class Contact extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { 
+      pageTitle: "Contact",
+    }
+  }
+
+  render() {
+    return (
+      <section>
+         <PageTitle pageTitle={this.state.pageTitle}></PageTitle>
+
+        <div className="contact">
     
-    <div className="bg-light p-5">
+          <div className="bg-light p-5">
         
           <div className="card mb-md-3 bg-light">
             <div className="row">
@@ -29,8 +43,11 @@ const Contact = () => (
       
         </div>
 
+        </div>
 
-  </section>
-);
+      </section>
+    )
+  }
+}
 
 export default Contact;

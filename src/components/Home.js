@@ -1,11 +1,27 @@
-import React from 'react';
+import React,  { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Services from './Services'
+import Service from './Service'
 import CTA from './CTA'
 import Prices from './Prices'
+import PageTitle from './PageTitle'
 
-const Home = () => (
+class Home extends Component {
+
+  constructor(props) {
+      super(props);
+
+      this.state = { 
+      pageTitle: "Home",
+      }
+  }
+
+render() {
+
+  return (
+
   <section>
+
+    <PageTitle pageTitle={this.state.pageTitle}></PageTitle>
     
     <div className="home hero jumbotron jumbotron-fluid">
       <div className="container">
@@ -24,11 +40,12 @@ const Home = () => (
       </div>
     </div>
 
-    <Services></Services>
+    <Service></Service>
     <CTA></CTA>
     <Prices></Prices>
     
   </section>
 );
+  }}
 
 export default Home;

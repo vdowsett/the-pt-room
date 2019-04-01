@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
 import Service from './Service';
+import PageTitle from './PageTitle';
 
 class Services extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      pageTitle: "Services"
+    }
+  }
 
   render() {
 
     return (
       <section className="services">
 
-      <div className="container text-center pt-5">
-      <p className="subtitle m-0">Get back to your best you</p>
-      <h2>I'm proud to offer the following services</h2>
-
+      <PageTitle pageTitle={this.state.pageTitle}></PageTitle>
       <Service></Service>
 
-      </div>
       </section>
     )
   }
