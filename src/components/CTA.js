@@ -11,7 +11,7 @@ class CTA extends Component {
   render() {
 
     return (
-      <section className="cta hero jumbotron jumbotron-fluid m-0">
+      <section className="bg-blue-light hero jumbotron jumbotron-fluid m-0">
         <div className="container text-light text-center">
             <h2><FontAwesomeIcon icon="envelope" /></h2>
             <h2 className=" text-uppercase ">Take the next step to a healthier you...</h2>

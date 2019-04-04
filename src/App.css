@@ -36,19 +36,19 @@ header {
   background-size: cover;
 }
 
-.bookings {
-  background-image: url('../src/assets/images/backgrounds/winter.jpg');
-}
-
-.home {
-  background-image: url('../src/assets/images/backgrounds/ironman-cowbell.jpg');
-}
-
-.cta {
+.bg-blue-light {
   background-color: #76bdcc;
 }
 
-.prices {
+.winter {
+  background-image: url('../src/assets/images/backgrounds/winter.jpg');
+}
+
+.cowbell {
+  background-image: url('../src/assets/images/backgrounds/ironman-cowbell.jpg');
+}
+
+.rocks {
   background-image: url('../src/assets/images/backgrounds/hot-rocks.jpg');
 }
 

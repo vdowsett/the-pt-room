@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PageTitle from './PageTitle';
+import CTA from './CTA';
 
 class Contact extends Component {
   constructor(props) {
@@ -43,6 +44,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
+        <CTA></CTA>
       </section>
     )
   }

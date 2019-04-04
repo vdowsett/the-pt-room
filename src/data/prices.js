@@ -1,22 +1,22 @@
 export default [
     {
         title: 'Sport Massage',
-        price: '$60',
+        price: '$75',
         time: '60 minutes',
     }, 
     {
         title: 'Therapeutic Massage',
-        price: '$60',
+        price: '$75',
         time: '60 minutes',
     }, 
     {
         title: 'Relaxation Massage',
-        price: '$60',
+        price: '$75',
         time: '60 minutes',
     }, 
     {
-        title: 'Sport (pre/post) Event Massage',
-        price: '$60',
+        title: 'Sport (Pre/Post) Event Massage',
+        price: '$75',
         time: '60 minutes',
     }, 
     {
@@ -26,17 +26,17 @@ export default [
     }, 
     {
         title: 'Trigger Point Therapy',
-        price: '$90',
+        price: '$95',
         time: '90 minutes',
     }, 
     {
         title: 'Strength Training',
-        price: '$60',
-        time: '60 minutes',
+        price: '$45',
+        time: '45 minutes',
     }, 
     {
         title: 'Personal Training',
-        price: '$60',
-        time: '60 minutes',
+        price: '$45',
+        time: '45 minutes',
     }, 
 ];

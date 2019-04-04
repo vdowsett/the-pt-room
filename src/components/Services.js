@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Service from './Service';
 import PageTitle from './PageTitle';
+import CTA from './CTA';
 
 class Services extends Component {
 
@@ -19,6 +20,7 @@ class Services extends Component {
 
       <PageTitle pageTitle={this.state.pageTitle}></PageTitle>
       <Service></Service>
+      <CTA></CTA>
 
       </section>
     )
