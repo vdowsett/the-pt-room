@@ -15,7 +15,7 @@ class Prices extends Component {
   render() {
 
     return (
-      <section className="prices hero m-0 text-light">
+      <section className="rocks hero m-0 text-light">
 
         <div className="container pt-5 pb-5">
             <h2>Pricing</h2>

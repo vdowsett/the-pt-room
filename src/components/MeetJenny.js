@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PageTitle from './PageTitle';
+import Reviews from './Reviews';
 import profilePhoto from '../assets/images/meet-jenny/jenny-strecker-personal-trainer.jpg';
 import ironManPhoto from '../assets/images/meet-jenny/Ironman-Auckland-2014-Jenny.png';
 import swimPhoto from '../assets/images/meet-jenny/Jenny-Beach-Series.png';
@@ -72,10 +73,13 @@ class MeetJenny extends Component {
           
           </div>
         </div>
+        
+        <Reviews></Reviews>
+        
 
-        <div className="small"><div className="container pt-5 pb-5">
+        <div className="small bg-light"><div className="container pt-5 pb-5">
           <div className="row">
-            <div className="col-12"><h3 className="mb-4">Achievements</h3></div>
+            <div className="col-12"><h2 className="mb-4">Achievements</h2></div>
 
             <div className="col-md-6">
 
@@ -133,10 +137,10 @@ class MeetJenny extends Component {
           </div>
         </div></div>
 
-        <div className="bg-light pt-5 pb-5">
+        <div className="pt-5 pb-5">
           <div className="container">
             <div className="row">
-              <div className="col-12"><h3 className="mb-4">Qualifications</h3></div>
+              <div className="col-12"><h2 className="mb-4">Qualifications</h2></div>
               <div className="col-md-6">
                 <b>Massage Therapy:</b>
                 <ul className="list-group mt-4">

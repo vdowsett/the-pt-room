@@ -18,7 +18,7 @@ class Bookings extends Component {
 
       <PageTitle pageTitle={this.state.pageTitle}></PageTitle>
 
-      <div className="bookings hero">
+      <div className="winter hero">
 
 
       <div className="container p-5 text-center text-light">
