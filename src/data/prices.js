@@ -1,6 +1,6 @@
 export default [
     {
-        title: 'Sport Massage',
+        title: 'Sports Massage',
         price: '$75',
         time: '60 minutes',
     }, 
@@ -15,7 +15,7 @@ export default [
         time: '60 minutes',
     }, 
     {
-        title: 'Sport (Pre/Post) Event Massage',
+        title: 'Sports (Pre/Post) Event Massage',
         price: '$75',
         time: '60 minutes',
     }, 
