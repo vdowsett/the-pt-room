@@ -14,11 +14,13 @@ class CTA extends Component {
       <section className="bg-blue-light hero jumbotron jumbotron-fluid m-0">
         <div className="container text-light text-center">
             <h2><FontAwesomeIcon icon="envelope" /></h2>
-            <h2 className=" text-uppercase ">Take the next step to a healthier you...</h2>
+            <h2 className="text-uppercase ">Take the next step to a healthier you...</h2>
+            <p className="mt-3"><i>Appointments available 7 days a week</i></p>
             <br/>
             <Link to="/bookings">
               <button type="button" className="btn btn-outline-light btn-block" target="_blank">Book Your Appointment Today</button>
             </Link>
+            
         </div>
       </section>
     )
