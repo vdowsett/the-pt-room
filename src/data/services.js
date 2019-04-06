@@ -1,12 +1,5 @@
 export default [
-    {
-        title: 'THERAPEUTIC MASSAGE',
-        intro: '<p>Advanced techniques during the 90-minute session to address specific pain and chronic health issues.<p>',
-        details: '<p>While therapeutic massage can be relaxing, this massage therapy will use advanced techniques to address specific pain and chronic health issues. During your 90 minute session I use a medium to firm pressure and incorporate deep tissue techniques that allows me to focus on ongoing trouble areas.</p><p>Each session is customized to your specific needs, and advanced techniques such as deep tissue, trigger point therapy, and myofascial release will be used. Often therapeutic massage is needed over a period of time to address underlining causes of pain. My focus is to ensure that your quality of living is improved with each visit.</p>',
-        icon: 'burn',
-        featureImage: '/assets/images/featureImage/massage.jpg',
-        slug: 'therapeutic',
-    }, 
+
     {
         title: 'RELAXATION MASSAGE',
         intro: '<p>A relaxing 60 minutes that allows you to unwind. A warm table, soothing music and rejuvenating experience.<p>',
@@ -14,6 +7,16 @@ export default [
         icon: 'spa',
         featureImage: '/assets/images/featureImage/massage.jpg',
         slug: 'relaxing',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2184747'
+    }, 
+    {
+        title: 'THERAPEUTIC MASSAGE',
+        intro: '<p>Advanced techniques during the 90-minute session to address specific pain and chronic health issues.<p>',
+        details: '<p>While therapeutic massage can be relaxing, this massage therapy will use advanced techniques to address specific pain and chronic health issues. During your 90 minute session I use a medium to firm pressure and incorporate deep tissue techniques that allows me to focus on ongoing trouble areas.</p><p>Each session is customized to your specific needs, and advanced techniques such as deep tissue, trigger point therapy, and myofascial release will be used. Often therapeutic massage is needed over a period of time to address underlining causes of pain. My focus is to ensure that your quality of living is improved with each visit.</p>',
+        icon: 'burn',
+        featureImage: '/assets/images/featureImage/massage.jpg',
+        slug: 'therapeutic',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2208360'
     }, 
     {
         title: 'SPORTS MASSAGE',
@@ -22,6 +25,7 @@ export default [
         icon: 'fire-alt',
         featureImage: '/assets/images/featureImage/massage.jpg',
         slug: 'sports-massage',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2333736'
     }, 
     {
         title: 'PRE-EVENT SPORTS MASSAGE',
@@ -30,6 +34,7 @@ export default [
         icon: 'running',
         featureImage: '/assets/images/featureImage/massage.jpg',
         slug: 'pre-event',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2359986'
     }, 
     {
         title: 'POST-EVENT SPORTS MASSAGE',
@@ -38,6 +43,7 @@ export default [
         icon: 'swimmer',
         featureImage: '/assets/images/featureImage/massage.jpg',
         slug: 'post-event',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2359980'
     }, 
 
     {
@@ -47,6 +53,7 @@ export default [
         icon: 'bullseye',
         featureImage: '/assets/images/featureImage/massage.jpg',
         slug: 'trigger-point-therapy',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2333799'
     },
     {
         title: 'PERSONAL TRAINING',
@@ -55,6 +62,7 @@ export default [
         icon: 'fire',
         featureImage: '/assets/images/featureImage/weights.jpg',
         slug: 'personal-training',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=category:Personal%20Training'
     }, 
     {
         title: 'STRENGTH TRAINING',
@@ -63,6 +71,7 @@ export default [
         icon: 'dumbbell',
         featureImage: '/assets/images/featureImage/weights.jpg',
         slug: 'personal-training',
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2209042'
     }, 
      
     {
@@ -72,5 +81,6 @@ export default [
         icon: 'heart',
         featureImage: '/assets/images/featureImage/massage.jpg',
         slug: 'compressilbe-limb-sleeve',
-    }, 
+        bookingLink: 'https://app.acuityscheduling.com/schedule.php?owner=13004853&appointmentType=2333829'
+    }
 ];

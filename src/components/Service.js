@@ -14,7 +14,9 @@ class Service extends Component {
 
     this.state = { 
       services: servicesData,
+      index: 0
     }
+    
   }
 
   render() {
@@ -29,7 +31,7 @@ class Service extends Component {
         <div className="row p-5">
       { 
         this.state.services.map( (service, index) => 
-
+        
           <div key={index} className="col-md-4 mb-5">
 
             <div className="services-icon d-flex justify-content-center align-items-center">
@@ -44,6 +46,7 @@ class Service extends Component {
               {ReactHtmlParser(service.intro)}
             </div>
 
+            <a href={service.bookingLink} target="_blank" rel="noopener noreferrer"><button className="btn btn-info " > Book Now </button></a>
             
 
           </div>
