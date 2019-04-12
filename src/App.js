@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home';
@@ -15,26 +15,21 @@ import Service from './components/Service';
 class App extends Component {
   render() {
     return (
+      <HashRouter>
       <div className="App">
-
         <Header></Header>
-
         <main>
-
-          <Route exact path="/" component={Home} />
-          <Route path="/meet-jenny" component={MeetJenny} />
-          <Route path="/new-clients" component={NewClients} />
-          <Route path="/services" component={Services} />
-          <Route path="/services/:slug" component={Service} />
-          <Route path="/bookings" component={Bookings} />
-          <Route path="/contact" component={Contact} />
-
+            <Route exact path="/" component={Home} />
+            <Route path="/meet-jenny" component={MeetJenny} />
+            <Route path="/new-clients" component={NewClients} />
+            <Route path="/services" component={Services} />
+            <Route path="/services/:slug" component={Service} />
+            <Route path="/bookings" component={Bookings} />
+            <Route path="/contact" component={Contact} />
         </main>
-
         <Footer></Footer>
-
-
       </div>
+      </HashRouter>
     );
   }
 }
