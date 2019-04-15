@@ -1,14 +1,6 @@
 import React from 'react';
 import logo from '../logo.svg';
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
-
-import Home from './Home';
-import MeetJenny from './MeetJenny';
-import NewClients from './NewClients';
-import Services from './Services';
-import Bookings from './Bookings';
-import Contact from './Contact';
-import Service from './Service';
+import { Link } from 'react-router-dom';
 
 const Header = ({ match }) => (
   <header className="pt-3 pb-3 bg-light">
