@@ -20,7 +20,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename="spna.dowsettdesigns.com/" >
+      <Router basename="spna.dowsettdesigns.com" >
         <div className="App">
           <Header></Header>
           <main>
