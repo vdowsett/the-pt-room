@@ -1,0 +1,16 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^theptroom\.co\.nz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.theptroom\.co\.nz$
+RewriteRule ^bookings$ "http://theptroom.co.nz/#/bookings" [R,L,NE]
+RewriteRule ^booking$ "http://theptroom.co.nz/#/bookings" [R,L,NE]
+RewriteRule ^booking/$ "http://theptroom.co.nz/#/bookings" [R,L,NE]
+RewriteRule ^services$ "http://theptroom.co.nz/#/services" [R,L,NE]
+RewriteRule ^theptroom-services/$ "http://theptroom.co.nz/#/services" [R,L,NE]
+RewriteRule ^meet-jenny$ "http://theptroom.co.nz/#/meet-jenny" [R,L,NE]
+RewriteRule ^meet-jenny/$ "http://theptroom.co.nz/#/meet-jenny" [R,L,NE]
+RewriteRule ^new-client$ "http://theptroom.co.nz/#/new-client" [R,L,NE]
+RewriteRule ^new-clients$ "http://theptroom.co.nz/#/new-client" [R,L,NE]
+RewriteRule ^contact$ "http://theptroom.co.nz/#/contact" [R,L,NE]
+RewriteRule ^contact-us/$ "http://theptroom.co.nz/#/contact" [R,L,NE]
+
