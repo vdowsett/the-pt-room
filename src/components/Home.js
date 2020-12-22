@@ -1,5 +1,6 @@
 import React,  { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Promotion from './Promotion';
 import Service from './Service';
 import CTA from './CTA';
 import Prices from './Prices';
@@ -24,7 +25,7 @@ render() {
 
     <PageTitle pageTitle={this.state.pageTitle}></PageTitle>
     
-    <div className="cowbell hero jumbotron jumbotron-fluid">
+    <div className="cowbell hero jumbotron jumbotron-fluid m-0">
       <div className="container">
         <div className="overlay p-5 shadow">
           <h5>Jenny Klooster: The Real Deal</h5>
@@ -43,7 +44,7 @@ render() {
         </div>
       </div>
     </div>
-
+    <Promotion></Promotion>
     <Service></Service>
     <CTA></CTA>
     <Prices></Prices>
